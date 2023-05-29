@@ -3,7 +3,24 @@
   <head>
     <meta charset="utf-8>
     <meta name="viewport" content="width"=device-width, initial-scale=1">
-    <title>Welcome to U-Shop @ MSU</title>
+    <title>Form</title>
+
+    <style>
+        serif;}
+      * {box-sizing: border-box;}
+      input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+
+      }
+    </style>
+
   </head>
   <body>
     <form >
@@ -12,15 +29,15 @@
         <table>
           <tr>
             <td>
-              <label id="name-label"><input id="name" type="text" size="45" width="4.0"placeholder=" Full Name" required /></label><br><br>
-              <label id="phone-label"><input id="phone" type="phone" size="45" placeholder=" Phone" required /></label><br><br>
+              <label id="name-label"><input id="name" type="text" size="50" placeholder=" Full Name" required/></label><br><br>
+              <label id="name-label"><input id="phone" type="text" size="50" placeholder=" Phone" required /></label><br><br>
             </td>
           </tr>
         
           <tr>
             <td>
-              <label><input type="checkbox" name="option" id="option" required  value="option"> Option-1 $50 <input type="checkbox" name="option" id="option" required  value="option"> Option-2 $100</label><br>
-              <label><input type="checkbox" name="option" id="option" required  value="option"> Option-3 $150 <input type="checkbox" name="option" id="option" required  value="option"> Option-4 $200</label><br><br>
+              <label><input type="checkbox" name="option" id="option" required  value="option" checked> Option-1 $50 <input type="checkbox" name="option" id="option" required  value="option"> Option-2 $100</label><br>
+              <label><input type="checkbox" name="option" id="option" required  value="option" checked> Option-3 $150 <input type="checkbox" name="option" id="option" required  value="option"> Option-4 $200</label><br><br>
             </td>
           </tr>
         
@@ -31,7 +48,7 @@
             </td>
           <tr>
             <td>
-              <textarea rows="5" cols="42" placeholder=" Leave Your Message..."></textarea><br>
+              <textarea rows="7" cols="42" placeholder=" Leave Your Message..."></textarea><br>
             </td>
           </tr>
           <tr>
